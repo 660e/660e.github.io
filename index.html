@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>660e</title>
+  <style>
+  html {
+    height: 100%;
+  }
+
+  body {
+    background-color: #000;
+    height: 100%;
+    margin: 0;
+    position: relative;
+  }
+
+  #null {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  </style>
+</head>
+
+<body>
+  <canvas id="null"></canvas>
+  <script>
+  (function(window, document) {
+    'use strict';
+
+    const n = document.getElementById('null');
+    const c = n.getContext('2d');
+    const s = Math.sin(Math.PI / 3);
+    const d = window.innerWidth > 500 ? 400 : 200;
+    const b = d * 0.05;
+    const w = d * 0.0075;
+    const r = d * 0.375;
+
+    n.setAttribute('height', d);
+    n.setAttribute('width', d);
+
+    c.strokeStyle = '#f00';
+    c.shadowColor = '#f00';
+    c.shadowBlur = b;
+    c.shadowOffsetX = 0;
+    c.shadowOffsetY = 0;
+    c.lineCap = 'round';
+    c.lineJoin = 'round';
+    c.lineWidth = w;
+
+    c.translate(d / 2, d / 2);
+
+    c.beginPath();
+    c.moveTo(0, -r);
+    c.lineTo(0, r);
+    c.lineTo(-r * s, r / 2);
+    c.lineTo(-r * s, -r / 2);
+    c.closePath();
+    c.stroke();
+
+    c.beginPath();
+    c.moveTo(0, -r / 2);
+    c.lineTo((r * s) / 2, -r / 4);
+    c.lineTo((r * s) / 2, r / 4);
+    c.lineTo(0, r / 2);
+    c.stroke();
+
+    c.beginPath();
+    c.moveTo(-r * s, r / 2);
+    c.lineTo(r * s, -r / 2);
+    c.stroke();
+
+    c.beginPath();
+    c.moveTo(-r * s, -r / 2);
+    c.lineTo(r * s, r / 2);
+    c.stroke();
+
+  })(window, document);
+  </script>
+</body>
+
+</html>
