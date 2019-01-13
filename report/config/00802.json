@@ -1,0 +1,64 @@
+{
+  "thead": [{
+    "label": "姓名",
+    "prop": "name",
+    "width": 200,
+    "fixed": "left"
+  }, {
+    "label": "A",
+    "prop": "numberA",
+    "width": 200
+  }, {
+    "label": "B",
+    "prop": "numberB",
+    "width": 200
+  }, {
+    "label": "C",
+    "prop": "numberC",
+    "width": 200
+  }, {
+    "label": "D",
+    "prop": "numberD",
+    "width": 200
+  }, {
+    "label": "E",
+    "prop": "numberE",
+    "width": 200
+  }, {
+    "label": "F",
+    "prop": "numberF",
+    "width": 200
+  }, {
+    "label": "G",
+    "prop": "numberG",
+    "width": 200
+  }, {
+    "label": "H",
+    "prop": "numberH",
+    "width": 200
+  }, {
+    "label": "I",
+    "prop": "numberI",
+    "width": 200
+  }, {
+    "label": "J",
+    "prop": "numberJ",
+    "width": 200
+  }],
+  "tbody": {
+    "total": 500,
+    "pattern": [{
+      "name|1": "@name",
+      "numberA|1-100": 1,
+      "numberB|1-100": 1,
+      "numberC|1-100": 1,
+      "numberD|1-100": 1,
+      "numberE|1-100": 1,
+      "numberF|1-100": 1,
+      "numberG|1-100": 1,
+      "numberH|1-100": 1,
+      "numberI|1-100": 1,
+      "numberJ|1-100": 1
+    }]
+  }
+}
