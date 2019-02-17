@@ -1,64 +1,72 @@
 {
   "thead": [{
-    "label": "姓名",
-    "prop": "name",
+    "label": "省域",
+    "prop": "province",
     "width": 200,
     "fixed": "left"
   }, {
     "label": "A",
-    "prop": "numberA",
+    "prop": "a",
     "width": 200
   }, {
     "label": "B",
-    "prop": "numberB",
-    "width": 200
-  }, {
-    "label": "C",
-    "prop": "numberC",
-    "width": 200
-  }, {
-    "label": "D",
-    "prop": "numberD",
-    "width": 200
+    "children": [{
+      "label": "C",
+      "prop": "c",
+      "width": 200
+    }, {
+      "label": "D",
+      "prop": "d",
+      "width": 200
+    }]
   }, {
     "label": "E",
-    "prop": "numberE",
+    "prop": "e",
     "width": 200
   }, {
     "label": "F",
-    "prop": "numberF",
-    "width": 200
-  }, {
-    "label": "G",
-    "prop": "numberG",
-    "width": 200
-  }, {
-    "label": "H",
-    "prop": "numberH",
-    "width": 200
-  }, {
-    "label": "I",
-    "prop": "numberI",
-    "width": 200
+    "children": [{
+      "label": "G",
+      "prop": "g",
+      "width": 200
+    }, {
+      "label": "H",
+      "prop": "h",
+      "width": 200
+    }, {
+      "label": "I",
+      "prop": "i",
+      "width": 200
+    }]
   }, {
     "label": "J",
-    "prop": "numberJ",
+    "prop": "j",
+    "width": 200
+  }, {
+    "label": "K",
+    "prop": "k",
+    "width": 200
+  }, {
+    "label": "L",
+    "prop": "l",
     "width": 200
   }],
   "tbody": {
-    "total": 500,
+    "total": 1000,
     "pattern": [{
-      "name|1": "@name",
-      "numberA|1-100": 1,
-      "numberB|1-100": 1,
-      "numberC|1-100": 1,
-      "numberD|1-100": 1,
-      "numberE|1-100": 1,
-      "numberF|1-100": 1,
-      "numberG|1-100": 1,
-      "numberH|1-100": 1,
-      "numberI|1-100": 1,
-      "numberJ|1-100": 1
+      "province|1": "@province",
+      "a|1-1000.2": 1,
+      "b|1-1000.2": 1,
+      "c|1-1000.2": 1,
+      "d|1-1000.2": 1,
+      "e|1-1000.2": 1,
+      "f|1-1000.2": 1,
+      "g|1-1000.2": 1,
+      "h|1-1000.2": 1,
+      "i|1-1000.2": 1,
+      "j|1-1000.2": 1,
+      "k|1-1000.2": 1,
+      "l|1-1000.2": 1
     }]
   }
 }
