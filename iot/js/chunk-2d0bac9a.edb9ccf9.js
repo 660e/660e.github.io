@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0bac9a"],{3964:function(n,t,e){"use strict";e.r(t);var c=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("h1",{staticStyle:{color:"#fff"}},[n._v("配电系统")])},l=[],a=e("2877"),u={},o=Object(a["a"])(u,c,l,!1,null,null,null);t["default"]=o.exports}}]);
