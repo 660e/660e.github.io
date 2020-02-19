@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0cf320"],{"634a":function(n,t,e){"use strict";e.r(t);var c=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("h1",{staticStyle:{color:"#fff","font-size":"30px",padding:"50px"}},[n._v("工单管理")])},l=[],a=e("2877"),o={},s=Object(a["a"])(o,c,l,!1,null,null,null);t["default"]=s.exports}}]);

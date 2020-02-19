@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b2177"],{2344:function(n,t,e){"use strict";e.r(t);var c=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("h1",{staticStyle:{color:"#fff","font-size":"30px",padding:"50px"}},[n._v("智能插座")])},l=[],o=e("2877"),s={},u=Object(o["a"])(s,c,l,!1,null,null,null);t["default"]=u.exports}}]);
