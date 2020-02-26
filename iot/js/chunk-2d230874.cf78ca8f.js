@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d230874"],{ed54:function(n,e,t){"use strict";t.r(e);var c=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("h1",{staticStyle:{color:"#fff","font-size":"30px",padding:"50px"}},[n._v("给排水系统")])},l=[],o=t("2877"),s={},u=Object(o["a"])(s,c,l,!1,null,null,null);e["default"]=u.exports}}]);
